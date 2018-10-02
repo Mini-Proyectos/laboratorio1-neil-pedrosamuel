@@ -1,5 +1,5 @@
 def binarySearch(left,right,x,Array):
-	while(left<right):
+	while(left<=right):
 		mid= int((left+right)//2)
 		if(x==Array[mid]):
 			print("El elemento %s se encuentra en la posicion %s" % (x, mid+1))
